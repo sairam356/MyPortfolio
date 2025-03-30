@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/sairam356/MyPortfolio",
+  "homepage": "https://sairam356.github.io/MyPortfolio",
   "scripts": {
     "dev": "tsx server/index.ts",
     "build": "vite build",
