@@ -6,9 +6,9 @@
   "homepage": "https://github.com/sairam356/MyPortfolio",
   "scripts": {
     "dev": "tsx server/index.ts",
-    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },
